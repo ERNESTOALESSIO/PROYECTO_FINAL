@@ -1,0 +1,110 @@
+.delcontacto {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 180px;
+
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+
+
+    box-shadow: 4px 4px 4px rgb(209, 206, 206);
+
+}
+
+.formu {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   
+
+
+
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid grey;
+    width: 30%;
+    padding-left: 15px;
+
+}
+
+
+.titulo {
+    font-size: 14px;
+}
+
+.datos p {
+    font-size: 14px;
+   
+
+}
+
+
+.formu p {
+
+    display: flex;
+}
+
+.formulario p input,
+.formulario p textarea {
+
+    width: 60%;
+    background-color: rgb(216, 248, 237);
+    border-radius: 7px;
+    border: 1px solid grey;
+    font-size: 16px;
+    padding: 6px 10px;
+}
+
+.formu p label {
+    min-width: 100px;
+}
+
+
+
+
+
+.formulario p:nth-child(5) {
+
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+
+}
+
+.formu input[type="submit"] {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(209, 206, 206);
+    color: black;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 100px;
+
+}
+
+.formu input[type="submit"]:hover {
+    background-color: rgb(47, 197, 197);
+    color:white;
+}
+
+.enviando{
+
+ color: red;
+ margin-left: 100px;   
+}
+.enviado{
+
+    color: red;
+    margin-left: 100px;   
+   }
